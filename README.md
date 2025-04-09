@@ -30,7 +30,7 @@ Data Exloration Process
 ---
 Matplotlib and Seaborn is used to visualize the cleaned data to understand what kind of model can be used and for what objective. The visualizations are a part of the engineering process. 
 
-Machine Learning (Hotspot Classification)
+Machine Learning (Hotspot Classification - merged_ml.ipynb)
 ---
 This project uses supervised learning to predict crash severity risk at specific locations and times. The model is trained using historical crash data enriched with weather and traffic context. The core model is a Random Forest Classifier, chosen for its robustness and interpretability. However, a Multi-Layer Perceptron was also trained and tested.
 
@@ -42,9 +42,9 @@ After training, the model generates crash risk scores for location-time combinat
 
 3/ High risk: Strong indicators of upcoming crash risk
 
-An interactive map is saved as an HTML file to visualize how the model classfies hotspots. 
+An interactive map is saved as an HTML file to visualize how the model classfies hotspots (hotspot-heatmap.html). 
 
-Machine Learning (Remedy Recommendation)
+Machine Learning (Remedy Recommendation - model4.ipynb)
 --
 A decision tree model with user-defined cases is used to recommend remedies for certain situations that contribute to a hotspot being 'hot'. 
 
